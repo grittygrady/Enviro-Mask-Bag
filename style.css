@@ -18,11 +18,16 @@ main {
   margin: auto;
 }
 
+body {
+  background-color: #303030;
+}
+
 /* NAV */
 nav {
   display: flex;
   justify-content: space-around;
   border-bottom: 3px solid black;
+  background: white;
 }
 
 nav h1 {
@@ -59,21 +64,21 @@ nav h1 {
 
 /* HERO SECTION */
 .hero {
-  border: 2px solid red;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
     url(./img/enviro-hero-sm.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  min-height: 60vh;
+  min-height: 70vh;
+  border-bottom: 3px solid black;
 }
 
 .hero__text {
   text-align: center;
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: white;
 }
@@ -86,4 +91,104 @@ nav h1 {
 .hero__text p {
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
+}
+
+/* INFO SECTION */
+
+.info {
+  color: white;
+}
+
+.info h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.info p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7rem;
+  line-height: 1.2;
+  padding-bottom: 1em;
+  width: 70%;
+  margin: auto;
+}
+
+/* GALLERY */
+
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  padding: 2em;
+}
+
+.info__card {
+  box-shadow: 1px 1px 2.5px 3px white;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-items: baseline;
+  padding: 1em 1em;
+  max-width: 30%;
+  height: 500px;
+}
+
+.info__card h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  color: whitesmoke;
+}
+
+.info__card p {
+  font-family: 'Oswald', sans-serif;
+  color: whitesmoke;
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 100;
+}
+
+.card__img img {
+  width: 70%;
+  border-radius: 15px;
+}
+
+.purchase {
+  background-color: white;
+}
+
+.purchase h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  width: 100%;
+}
+
+.purchase__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.purchase img {
+  width: 200px;
+}
+
+.purchase__text h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+}
+
+.purchase__text a {
+  color: red;
+}
+
+.contact__links a {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 1.7rem;
+  padding: 0 1em;
+  text-align: center;
+  margin: 0 auto;
 }
