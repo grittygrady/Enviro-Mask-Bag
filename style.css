@@ -21,7 +21,7 @@ img {
 :root {
   --clr-light: #fff;
   --clr-accent: #ce1212;
-  --clr-med: #810000;
+  --clr-med: #720101;
   --clr-dark: #1b1717;
   --dummy-border: 3px solid blue;
 }
@@ -41,6 +41,11 @@ body {
   width: 100%;
 }
 
+.wrapper {
+  max-width: 900px;
+  width: 80%;
+  margin: auto;
+}
 /* NAVBAR */
 
 nav {
@@ -114,4 +119,128 @@ nav {
 .hero__text p {
   color: var(--clr-light);
   text-shadow: 0.5px 0.5px var(--clr-accent);
+}
+
+/* ABOUT SECTION */
+
+.about {
+  text-align: center;
+  color: var(--clr-light);
+  background-color: var(--clr-dark);
+  padding: 2em 0;
+  border-top: 2px solid var(--clr-dark);
+  border-bottom: 2px solid var(--clr-dark);
+}
+
+.about h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-bottom: 1em;
+  color: var(--clr-light);
+  text-shadow: 1px 0.5px var(--clr-med);
+}
+
+.about p {
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+/* GALLERY */
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: var(--clr-med);
+}
+
+.info__card {
+  width: 100%;
+  padding: 0.7em;
+  border-radius: 7px;
+  background-color: var(--clr-dark);
+  box-shadow: 0.1px 0.1px 4px var(--clr-accent);
+  color: var(--clr-light);
+  text-align: center;
+  margin: 1em 0 1em 0;
+}
+
+.info__card img {
+  border-radius: 7px;
+}
+
+.card__text {
+  padding: 0.7em 0;
+  line-height: 1.4;
+}
+
+.card__text h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-bottom: 0.3em;
+}
+
+.card__text p {
+  font-weight: 200;
+  font-size: 1.1rem;
+}
+
+/* CONTACT */
+
+.contact {
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+}
+
+.contact h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 1px 1px var(--clr-accent);
+}
+
+.contact__box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact__img {
+  width: 33%;
+}
+
+.contact__text {
+  width: 65%;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 3px;
+  margin-right: 8px;
+}
+
+.contact__box a {
+  text-decoration: none;
+  color: var(--clr-accent);
+}
+
+.contact__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact__links a {
+  color: var(--clr-accent);
+  font-size: 1.4rem;
+  padding: 0.4em 0;
+}
+
+.contact__links i {
+  margin-right: 0.3em;
 }
