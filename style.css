@@ -87,3 +87,31 @@ nav {
   background: var(--clr-med);
   color: var(--clr-light);
 }
+
+/* HERO SECTION */
+.hero {
+  background: linear-gradient(#00000073, #0000008e),
+    url(./img/enviro-hero-xs.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero__text {
+  position: relative;
+  padding: 9em 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero__text h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.25rem;
+  text-shadow: 1px 1px var(--clr-accent);
+  color: var(--clr-light);
+}
+
+.hero__text p {
+  color: var(--clr-light);
+  text-shadow: 0.5px 0.5px var(--clr-accent);
+}
