@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Enviro Mask Bags</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+    />
     <script
       src="https://kit.fontawesome.com/6014e7f866.js"
       crossorigin="anonymous"
@@ -67,7 +73,7 @@
       <!-- GALLERY -->
       <section class="gallery">
         <div class="wrapper">
-          <div class="info__card">
+          <div class="info__card" data-aos="flip-right">
             <div class="card__img">
               <img src="./img/maskbag-open.png" alt="enviromask-1" />
             </div>
@@ -79,7 +85,7 @@
               </p>
             </div>
           </div>
-          <div class="info__card">
+          <div class="info__card" data-aos="flip-right">
             <div class="card__img">
               <img src="./img/maskbag-2.png" alt="enviromask-2" />
             </div>
@@ -91,7 +97,7 @@
               </p>
             </div>
           </div>
-          <div class="info__card">
+          <div class="info__card" data-aos="flip-right">
             <div class="card__img">
               <img src="./img/maskbag-3.png" alt="enviromask-3" />
             </div>
@@ -136,11 +142,31 @@
           <a href="tel:+18473017298"
             ><i class="fas fa-fax"></i>FAX: (847) 301-7298</a
           >
+          <a href="mailto:msvihra@aoe.net"
+            ><i class="fas fa-at"></i>msvihra@aoe.net</a
+          >
         </div>
       </div>
     </section>
 
     <!-- FOOTER -->
-    <footer>FOOOOOOTER GOOOOOO HEERERERE</footer>
+    <footer>
+      <p>
+        <i class="far fa-copyright"></i> Designed by
+        <a href="mailto:grittygrady@gmail.com">Christopher Grady</a>
+      </p>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      AOS.init({
+        delay: 200,
+        duration: 1200,
+        once: false,
+      });
+    </script>
   </body>
 </html>

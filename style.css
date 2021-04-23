@@ -244,3 +244,20 @@ nav {
 .contact__links i {
   margin-right: 0.3em;
 }
+
+/* FOOTER SECTION */
+footer {
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  border-top: 2px solid var(--clr-med);
+  padding: 1em 0;
+  text-align: center;
+}
+
+footer a {
+  color: var(--clr-accent);
+}
+
+footer a:visited {
+  color: var(--clr-accent);
+}
