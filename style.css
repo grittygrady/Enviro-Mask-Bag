@@ -13,9 +13,7 @@ font-family: 'Roboto', sans-serif; */
   margin: 0;
   padding: 0;
 }
-.flex-row {
-  position: relative;
-}
+
 img {
   max-width: 100%;
 }
@@ -510,6 +508,7 @@ footer a:visited {
   }
 
   .card__text {
+    width: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
