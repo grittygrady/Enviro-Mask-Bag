@@ -16,6 +16,7 @@ font-family: 'Roboto', sans-serif; */
 .flex-row {
   display: relative;
   z-index: -1;
+  overflow: hidden;
 }
 img {
   max-width: 100%;
